@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "outfit" , sans-serif;
+}
+
+body{
+    background: black;
+}
+h1,
+h4,
+p,
+a{
+color: white;
+text-decoration: none;
+}
+
+ul{
+list-style-type: none;
+}
+ .PrimryBtn {
+    display: inline-block;
+    margin: 1rem 0.5rem;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background: #aa3ba2;
+    box-shadow: 0 0 5px #aa3ba2;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+  }
+  
+   .PrimryBtn-light {
+    background:none;
+    color: #aa3ba2;
+    border: 2px solid #aa3ba2;
+  }
+  
+   .PrimryBtn:hover {
+    background:#aa3ba2;
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #aa3ba2
+                0 0 50px #aa3ba2; 
+
+     color: #fff;            
+  }
+  

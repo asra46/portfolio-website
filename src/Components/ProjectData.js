@@ -48,7 +48,7 @@ const projectData = [
     id: 5,
     imgsrc: pro8,
     title: "Traveling Agencey Website",
-    desc: "A simple and interactive Todo app built with React to add, update, and delete daily tasks.",
+    desc: "A responsive React project showcasing a travel agency landing page with destination highlights and user‑focused navigation.",
     category: "frontend",
     source: "https://github.com/asra46/Travel-Agency-Website.git",
     url: "https://travel-agency-website-8voh.vercel.app/"

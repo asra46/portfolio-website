@@ -12,7 +12,8 @@
     background: #1a1919;
     padding: 1.2rem 1rem;
     border-radius:1rem;
-    /* border:1px solid #1eced4 */
+
+    border:1px solid #aa3ba2;
 }
 .project-card:hover{
     cursor: pointer;
@@ -39,10 +40,10 @@
 .pro-btns{
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem 0;
+    padding: 0;
 }
-.pro-btns .btn{
-    padding: 0.5rem 1rem;
+.pro-btns a{
+    padding: .5rem;
 }
 
 

@@ -6,15 +6,17 @@ const AllProjects = () => {
   return (
     <div>
     <div className='project-container'>
-      {projectData.map((project) => (
-  <WorkCard 
-    key={project.id}
-    imgsrc={project.imgsrc}
-    title={project.title}
-    source={project.source}   // ✅ ADD THIS
-    view={project.url}
+{projectData.map((item) => (
+  <WorkCard
+    key={item.id}
+    imgsrc={item.imgsrc}
+    title={item.title}
+    desc={item.desc}
+    view={item.url}
+    source={item.source}
   />
 ))}
+
 
       </div>
     </div>

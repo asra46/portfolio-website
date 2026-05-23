@@ -17,12 +17,12 @@ const Tabs = () => {
         <li className={activeTab === "all" ? "active" : ""} onClick={() => handleTabClick("all")}>
           All
         </li>
-        <li className={activeTab === "frontend" ? "active" : ""} onClick={() => handleTabClick("frontend")}>
-          Frontend
-        </li>
-        <li className={activeTab === "backend" ? "active" : ""} onClick={() => handleTabClick("backend")}>
-          Python
-        </li>
+        // <li className={activeTab === "frontend" ? "active" : ""} onClick={() => handleTabClick("frontend")}>
+        //   Frontend
+        // </li>
+        // <li className={activeTab === "backend" ? "active" : ""} onClick={() => handleTabClick("backend")}>
+        //   Python
+        // </li>
        
       </ul>
 

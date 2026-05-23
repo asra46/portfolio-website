@@ -12,7 +12,7 @@ const HeroImg = () => {
 
       <div className="content">
         <h1 className="fade-in">
-          Hi, I’m <span className="highlight">Asra Nawaz</span> 👋
+          Hi, I’m <span className="highlight">Emaan</span> 👋
         </h1>
 
         <h2 className="slide-up">
